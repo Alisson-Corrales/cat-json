@@ -1,0 +1,33 @@
+html {
+  background-color: #fdbc5a;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header h1, header h2 {
+  color: oldlace;
+  font-family: 'Acme', sans-serif;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+section h3 {
+  color: oldlace;
+}
+/*# sourceMappingURL=style.css.map */

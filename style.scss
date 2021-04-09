@@ -1,0 +1,31 @@
+//google fonts
+//header: font-family: 'Acme', sans-serif;
+
+//⭐ General Styling ⭐
+html{
+    background-color: rgb(253, 188, 90);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+//⭐ header ⭐
+header{
+    text-align: center;
+    h1{
+        font-size: 3rem;
+    }
+    h1, h2{
+        color: oldlace;
+        font-family: 'Acme', sans-serif;
+    }
+}
+
+//⭐ section ⭐
+section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+    h3{
+        color: oldlace;
+    }
+}

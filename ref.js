@@ -97,7 +97,7 @@ function createSection(obj){
 
     //puts the heroes names in the H2 element
     H2.textContent = HEROES[hero]["name"]
-    P1.textContent =`Secret Identity: ${HEROES[hero]["secretIdentity"]}`
+    P1.textContent = `Secret Identity: ${HEROES[hero]["secretIdentity"]}`
     P2.textContent = `Age: ${HEROES[hero]["age"]}`
     P3.textContent = `Super Powers:`
 
@@ -109,11 +109,11 @@ function createSection(obj){
       LIST.appendChild(ITEM)
     }
 
-    ARTICLE.appendChild(H2)
-    ARTICLE.appendChild(P1)
-    ARTICLE.appendChild(P2)
-    ARTICLE.appendChild(P3)
-    ARTICLE.appendChild(LIST)
+    ARTICLE.appendChild(H2);
+    ARTICLE.appendChild(P1);
+    ARTICLE.appendChild(P2);
+    ARTICLE.appendChild(P3);
+    ARTICLE.appendChild(LIST);
 
     section.appendChild(ARTICLE)
   }
